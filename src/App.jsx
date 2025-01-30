@@ -7,7 +7,7 @@ const App = () => {
   function isPrime() {
     if (count < 2) return false;
     for (let i = 2; i <= Math.trunc(count / 2); i++) {
-      if (count % 2 == 0) return false
+      if (count % i == 0) return false
     }
     return true
   }
